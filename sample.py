@@ -3,6 +3,7 @@ import cv2
 # Open the webcam
 cap = cv2.VideoCapture(0)
 
+from matplotlib import app
 # Check if the webcam is opened correctly
 if not cap.isOpened():
     print("Error: Could not open webcam.")
